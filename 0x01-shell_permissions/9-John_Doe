@@ -1,3 +1,8 @@
 #!/bin/bash
+<<<<<<< HEAD
 aaaachmod 753 hello
  
+=======
+chmod 753 hello
+ 1
+>>>>>>> b1edac98aabf8ec37decb34f0a56e24462654317
