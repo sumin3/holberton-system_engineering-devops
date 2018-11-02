@@ -8,5 +8,5 @@ do
     then
 	echo "hi"
     fi
-    let n++
+    ((n++))
 done
