@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+# displays number from 1-20 and displays bad luck for 4th, 9th, and 17th iteration.
+n=1
+while [ $n -le 20 ]
+do
+    echo $n
+    if [ $n == 4 ]
+    then
+	echo "bad luck from China"
+    elif [ $n == 9 ]
+    then
+	echo "bad luck from Japan"
+    elif [ $n == 17 ]
+    then
+	echo "bad luck from Italy"
+    fi
+    let n++
+done
