@@ -3,5 +3,5 @@
 l=$(ls)
 for i in $l
 do
-    echo "$i" | cut -d "-" -f2-
+    echo "$i" | cut -d "-" -f2
 done
