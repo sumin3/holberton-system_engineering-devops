@@ -6,7 +6,7 @@ do
     echo "Holberton School"
     if [ $n -eq 9 ]
     then
-	echo "hi"
+	echo "Hi"
     fi
     ((n++))
 done
