@@ -7,7 +7,7 @@ do
     echo "Hour: $h"
     while [ $m -le 59 ]
     do
-	echo $m
+	echo "$m"
 	let m++
     done
     m=0
