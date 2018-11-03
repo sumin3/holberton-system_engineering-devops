@@ -10,6 +10,6 @@ do
 	echo "$m"
 	let m++
     done
-    m=0
+    m=1
     let h++
 done
