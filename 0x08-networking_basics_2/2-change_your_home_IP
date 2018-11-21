@@ -9,3 +9,4 @@ then
 else
     sed -i "1i8.8.8.8 facebook.com" ~/hostTmp
 fi
+cp -f ~/hostTmp /etc/hosts
