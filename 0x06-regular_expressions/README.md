@@ -13,7 +13,7 @@ System engineering & DevOps ― Scripting
 * [Author](https://github.com/sumin3/holberton-system_engineering-devops/tree/master/0x08-networking_basics_2#author)
 ---
 ## Purpose
-For this project, we have to build our regular expression using Oniguruma, a regular expression library that which is used by Ruby by default. 
+- For this project, we have to build our regular expression using Oniguruma, a regular expression library that which is used by Ruby by default. 
 ---
 ## Coding style
 - All Bash script files are executable and are interpreted on Ubuntu 14.04 LTS. 
@@ -39,15 +39,15 @@ Holberton
 ## Files
 |File| File Hierarchy  | Description 
 |---|----|-----
-| '0-simply_match_holberton.rb' | [0-simply_match_holberton.rb](0-simply_match_holberton.rb) | Ruby script that accepts one argument and pass it to a regular expression matching method. <br />The regular expression must match Holberton
-| '1-repetition_token_0.rb' | [1-repetition_token_0.rb](1-repetition_token_0.rb) | Ruby script that accepts one argument and pass it to a regular expression matching method. <br />Find the regular expression that will match any string that contains a sequence of 2 to 5 t's
-| '2-repetition_token_1.rb' | [2-repetition_token_1.rb](2-repetition_token_1.rb) | Ruby script that accepts one argument and pass it to a regular expression matching method. <br />Find the regular expression that will match any string that contains zero or one occurrences of b
-| '3-repetition_token_2.rb' | [3-repetition_token_2.rb](3-repetition_token_2.rb) | Ruby script that accepts one argument and pass it to a regular expression matching method. <br />Find the regular expression that will match any string that contains at least one t
-| '4-repetition_token_3.rb' | [4-repetition_token_3.rb](4-repetition_token_3.rb) | Ruby script that accepts one argument and pass it to a regular expression matching method. <br />Find the regular expression that will match any string that contains zero or more occurrences of t
-| '5-beginning_and_end.rb' | [5-beginning_and_end.rb](5-beginning_and_end.rb) | Ruby script that accepts one argument and pass it to a regular expression matching method. <br />The regular expression must be exactly matching a string that starts by h ends by n and can have any single character in between
-| '6-phone_number.rb' | [6-phone_number.rb](6-phone_number.rb) | Ruby script that accepts one argument and pass it to a regular expression matching method. <br />The regular expression must match a 10 digit phone number
-| '7-OMG_WHY_ARE_YOU_SHOUTING.rb' | [7-OMG_WHY_ARE_YOU_SHOUTING.rb](7-OMG_WHY_ARE_YOU_SHOUTING.rb) | Ruby script that accepts one argument and pass it to a regular expression matching method. <br />The regular expression must be only matching: capital letters
-| '100-textme.rb' | [100-textme.rb](100-textme.rb) | Ruby script that accepts one argument and pass it to a regular expression matching method. <br />script should output: [SENDER],[RECEIVER],[FLAGS]
+| '0-simply_match_holberton.rb' | [0-simply_match_holberton.rb](0-simply_match_holberton.rb) | The regular expression must match Holberton
+| '1-repetition_token_0.rb' | [1-repetition_token_0.rb](1-repetition_token_0.rb) | Find the regular expression that will match any string that contains a sequence of 2 to 5 t's
+| '2-repetition_token_1.rb' | [2-repetition_token_1.rb](2-repetition_token_1.rb) | Find the regular expression that will match any string that contains zero or one occurrences of b
+| '3-repetition_token_2.rb' | [3-repetition_token_2.rb](3-repetition_token_2.rb) | Find the regular expression that will match any string that contains at least one t
+| '4-repetition_token_3.rb' | [4-repetition_token_3.rb](4-repetition_token_3.rb) | Find the regular expression that will match any string that contains zero or more occurrences of t
+| '5-beginning_and_end.rb' | [5-beginning_and_end.rb](5-beginning_and_end.rb) | The regular expression must be exactly matching a string that starts by h ends by n and can have any single character in between
+| '6-phone_number.rb' | [6-phone_number.rb](6-phone_number.rb) | The regular expression must match a 10 digit phone number
+| '7-OMG_WHY_ARE_YOU_SHOUTING.rb' | [7-OMG_WHY_ARE_YOU_SHOUTING.rb](7-OMG_WHY_ARE_YOU_SHOUTING.rb) | The regular expression must be only matching: capital letters
+| '100-textme.rb' | [100-textme.rb](100-textme.rb) | script should output: [SENDER],[RECEIVER],[FLAGS]
 ---
 ## Author
 Sumin Yu - [Twitter: @3_sumin](https://twitter.com/3_sumin)
