@@ -23,7 +23,7 @@ System engineering & DevOps ― Bash
 
 ## Installation
 ```
-https://github.com/sumin3/holberton-system_engineering-devops.git
+git clone https://github.com/sumin3/holberton-system_engineering-devops.git
 ```
 ```
 cd 0x05-processes_and_signals
