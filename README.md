@@ -17,7 +17,7 @@
 
 ## Installation
 ```
-https://github.com/sumin3/holberton-system_engineering-devops.git
+git clone https://github.com/sumin3/holberton-system_engineering-devops.git
 ```
 ---
 ## Usage
