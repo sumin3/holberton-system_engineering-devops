@@ -1,4 +1,4 @@
-<img src=https://s3.amazonaws.com/intranet-projects-files/holbertonschool-sysadmin_devops/285/s7kpNYq.png>
+<img src="https://www.holbertonschool.com/holberton-logo-twitter-card.png">
 
 # 0x08. Networking basics #1
 System engineering & DevOps ― Networking
