@@ -14,6 +14,10 @@ System engineering & DevOps ― Bash
 
 ## Purpose
 To learn how to use loops, conditions and parsing for bash
+
+## Coding style
+- All Bash script text files are executable and are interpreted on Ubuntu 14.04 LTS. They all pass Shellcheck (version 0.3.3-1~ubuntu14.04.1 via apt-get) without any errors.
+
 ## Installation
 ```
 git clone https://github.com/sumin3/holberton-system_engineering-devops.git
