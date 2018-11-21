@@ -8,7 +8,6 @@
 * [Installation](https://github.com/sumin3/holberton-system_engineering-devops#installation)
 * [Usage](https://github.com/sumin3/holberton-system_engineering-devops#usage)
 * [Usage Example](https://github.com/sumin3/holberton-system_engineering-devops#Usage-Example)
-* [Files](https://github.com/sumin3/holberton-system_engineering-devops#Files)
 * [Author](https://github.com/sumin3/holberton-system_engineering-devops#author)
 ---
 
