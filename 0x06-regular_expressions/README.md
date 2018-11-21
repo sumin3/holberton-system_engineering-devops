@@ -4,13 +4,13 @@
 System engineering & DevOps ― Scripting
 
 ## Contents
-* [Purpose](https://github.com/sumin3/holberton-system_engineering-devops/tree/master/0x08-networking_basics_2#Purpose)
-* [Coding style](https://github.com/sumin3/holberton-system_engineering-devops/tree/master/0x08-networking_basics_2#Coding-style)
-* [Usage](https://github.com/sumin3/holberton-system_engineering-devops/tree/master/0x08-networking_basics_2#usage)
-* [Installation](https://github.com/sumin3/holberton-system_engineering-devops/tree/master/0x08-networking_basics_2#installation)
-* [Usage Example](https://github.com/sumin3/holberton-system_engineering-devops/tree/master/0x08-networking_basics_2#Usage-Example)
-* [Files](https://github.com/sumin3/holberton-system_engineering-devops/tree/master/0x08-networking_basics_2#Files)
-* [Author](https://github.com/sumin3/holberton-system_engineering-devops/tree/master/0x08-networking_basics_2#author)
+* [Purpose](https://github.com/sumin3/holberton-system_engineering-devops/tree/master/0x06-regular_expressions#Purpose)
+* [Coding style](https://github.com/sumin3/holberton-system_engineering-devops/tree/master/0x06-regular_expressions#Coding-style)
+* [Usage](https://github.com/sumin3/holberton-system_engineering-devops/tree/master/0x06-regular_expressions#usage)
+* [Installation](https://github.com/sumin3/holberton-system_engineering-devops/tree/master/0x06-regular_expressions#installation)
+* [Usage Example](https://github.com/sumin3/holberton-system_engineering-devops/tree/master/0x06-regular_expressions#Usage-Example)
+* [Files](https://github.com/sumin3/holberton-system_engineering-devops/tree/master/0x06-regular_expressions#Files)
+* [Author](https://github.com/sumin3/holberton-system_engineering-devops/tree/master/0x06-regular_expressions#author)
 ---
 ## Purpose
 - For this project, we have to build our regular expression using Oniguruma, a regular expression library that which is used by Ruby by default. 
