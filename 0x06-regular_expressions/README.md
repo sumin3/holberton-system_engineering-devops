@@ -19,7 +19,7 @@ System engineering & DevOps ― Scripting
 - All Bash script files are executable and are interpreted on Ubuntu 14.04 LTS. 
 ## Installation
 ```
-https://github.com/sumin3/holberton-system_engineering-devops.git
+git clone https://github.com/sumin3/holberton-system_engineering-devops.git
 ```
 ```
 cd 0x06-regular_expressions
