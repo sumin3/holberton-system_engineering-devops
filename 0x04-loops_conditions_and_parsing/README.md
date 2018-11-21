@@ -3,6 +3,15 @@
 # 0x04. Loops, conditions and parsing
 System engineering & DevOps ― Bash
 
+## Contents
+* [Purpose](https://github.com/sumin3/holberton-system_engineering-devops/tree/master/0x04-loops_conditions_and_parsing#Purpose)
+* [Coding style](https://github.com/sumin3/holberton-system_engineering-devops/tree/master/0x04-loops_conditions_and_parsing#Coding-style)
+* [Installation](https://github.com/sumin3/holberton-system_engineering-devops/tree/master/0x04-loops_conditions_and_parsing#installation)
+* [Usage](https://github.com/sumin3/holberton-system_engineering-devops/tree/master/0x04-loops_conditions_and_parsing#usage)
+* [Usage Example](https://github.com/sumin3/holberton-system_engineering-devops/tree/master/0x04-loops_conditions_and_parsing#Usage-Example)
+* [Files](https://github.com/sumin3/holberton-system_engineering-devops/tree/master/0x04-loops_conditions_and_parsing#Files)
+* [Author](https://github.com/sumin3/holberton-system_engineering-devops/tree/master/0x04-loops_conditions_and_parsing#author)
+
 ## Purpose
 To learn how to use loops, conditions and parsing for bash
 ## Installation
@@ -12,12 +21,12 @@ git clone https://github.com/sumin3/holberton-system_engineering-devops.git
 ```
 cd 0x04-loops_conditions_and_parsing
 ```
----
+
 ## Usage
 ```
 $ ./<filename>
 ```
----
+
 ### Usage Example
 ```
 $ ./2-while_holberton_school
