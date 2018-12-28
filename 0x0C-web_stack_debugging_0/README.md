@@ -27,6 +27,17 @@ git clone https://github.com/sumin3/holberton-system_engineering-devops.git
 cd 0x0C-web_stack_debugging_0
 ```
 
+## Usage
+```
+$ ./<filename>
+```
+
+### Usage Example
+```
+$ ./0-transfer_file
+Usage: 0-transfer_file PATH_TO_FILE IP USERNAME PATH_TO_SSH_KEY
+```
+
 ## Files
 |File| File Hierarchy  | Description 
 |---|----|-----
