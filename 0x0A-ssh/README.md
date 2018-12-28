@@ -58,7 +58,7 @@ The key's randomart image is:
 |---|----|-----
 | `0-use_a_private_key` | [0-use_a_private_key](0-use_a_private_key) |  a Bash script that uses ssh to connect to your server using the private key ~/.ssh/holberton with the user ubuntu.
 | `1-create_ssh_key_pair` | [1-create_ssh_key_pair](1-create_ssh_key_pair) |  a Bash script that creates an RSA key pair.
-| `2-ssh_config` | [2-ssh_config](2-ssh_config) | configure the ssh configure file to the requirements below, so that you can connect to a server without typing a password: <br />- Your SSH client configuration must be configured to use the private key ~/.ssh/holberton <br />- Your SSH client configuration must be configured to refuse to authenticate using a password
+| `2-ssh_config` | [2-ssh_config](2-ssh_config) | **configure the ssh configure file to the requirements below, so that you can connect to a server without typing a password:** <br />1. Your SSH client configuration must be configured to use the private key ~/.ssh/holberton <br />2. Your SSH client configuration must be configured to refuse to authenticate using a password
 ---
 ## Author
 Sumin Yu - [Twitter: @3_sumin](https://twitter.com/3_sumin)
