@@ -17,7 +17,7 @@ System engineering & DevOps ― Web stack
 ---
 
 ## Files
-|File| File Hierarchy  | Description &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+|File| File Hierarchy  | Description xxxxxxxx                       xxxxxxxx    xxx
 |---|----|-----
 | `0-simple_web_stack` | [0-simple_web_stack](0-simple_web_stack) | **diagram must includes**:<br /> 1 server <br />1 web server (Nginx) <br />1 application server <br />1 application files (your code base) <br /> 1 database (MySQL) <br />1 domain name foobar.com configured with a www record that points to your server IP 8.8.8.8
 | `1-distributed_web_infrastructure` | [1-distributed_web_infrastructure](1-distributed_web_infrastructure) | **diagram must adds**: <br />2 servers<br /> 1 web server (Nginx) <br />1 application server <br />1 load-balancer (HAproxy)<br /> 1 application files (your code base) <br /> 1 database (MySQL)
