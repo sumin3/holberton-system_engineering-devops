@@ -12,6 +12,6 @@ sudo sed -i '/^\tserver_name localhost;/ a\\n\terror_page 404 \/custom_404.html;
 
 n=$(hostname)
 file2="/etc/nginx/sites-available/default"
-sudo sed -i '/^\tserver_name localhost;/ a\\tadd_header X-Served-By '"$n" $file2
+sudo sed -i '/^\tserver_name localhost;/ a\\tadd_header X-Served-By '"$n;" $file2
 
 sudo service nginx restart
