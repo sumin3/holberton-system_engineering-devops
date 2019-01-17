@@ -1,0 +1,27 @@
+#!/usr/bin/env bash
+# Bash script that will display information about subdomains.
+
+show_domain () {
+    ip_address=$(dig "$2"."$1" | grep -A1 'ANSWER SECTION:' | awk 'FNR == 2 {print $5}')
+    type_record=$(dig "$2"."$1" | grep -A1 'ANSWER SECTION:' | awk 'FNR == 2 {print $4}')
+    echo "The subdomain $2 is a $type_record record and points to $ip_address"
+}
+
+show_all () {
+    sub_domain=('www' 'lb-01' 'web-01' 'web-02')    
+    for i in ${sub_domain[@]}
+    do
+	ip_address=$(dig "$i"."$1" | grep -A1 'ANSWER SECTION:' | awk 'FNR == 2 {print $5}')
+	type_record=$(dig "$i"."$1" | grep -A1 'ANSWER SECTION:' | awk 'FNR == 2 {print $4}')
+	echo "The subdomain $i is a $type_record record and points to $ip_address"
+    done
+}
+
+if [ "$2" ]
+then
+    show_domain $1 $2
+else
+    show_all $1
+fi
+
+
