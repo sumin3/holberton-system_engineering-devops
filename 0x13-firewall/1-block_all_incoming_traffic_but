@@ -4,8 +4,7 @@ apt-get -y update
 apt-get -y upgrade
 apt-get -y install ufw
 sudo ufw default deny incoming
-sudo ufw allow 22
-sudo ufw allow 80
-sudo ufw allow 443
+sudo ufw allow 22/tcp
+sudo ufw allow 80/tcp
+sudo ufw allow 443/tcp
 echo "y" | sudo ufw enable
-
