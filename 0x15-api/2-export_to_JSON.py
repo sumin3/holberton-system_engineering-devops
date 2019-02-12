@@ -10,7 +10,7 @@ if __name__ == "__main__":
     import json
 
     url = 'https://jsonplaceholder.typicode.com/users/{}'.format(argv[1])
-    employee = requests.get(url).json().get('name')
+    employee = requests.get(url).json().get('username')
 
     url_todo = 'https://jsonplaceholder.typicode.com/todos?userId={}'.format(
         argv[1])
@@ -19,5 +19,5 @@ if __name__ == "__main__":
               'username': employee} for todo in todos]
     data = {argv[1]: value}
 
-    with open('USER_ID.json', 'w') as f:
+    with open('{}.json'.format(argv[1]), 'w') as f:
         json.dump(data, f)
