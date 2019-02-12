@@ -5,7 +5,6 @@ returns information about his/her TODO list progress - export data in the
 json format.
 """
 if __name__ == "__main__":
-    from sys import argv
     import requests
     import json
 
