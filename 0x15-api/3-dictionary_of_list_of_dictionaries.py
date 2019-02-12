@@ -17,9 +17,9 @@ if __name__ == "__main__":
     data = {}
     for key in user_dict.keys():
         todos = requests.get('{}{}'.format(todo_url, key)).json()
-        value = [{'task': todo.get('title'),
-                  'completed': todo.get('completed'),
-                  'username': user_dict.get(todo.get('userId'))}
+        value = [{'username': user_dict.get(todo.get('userId')),
+                  'task': todo.get('title'),
+                  'completed': todo.get('completed')}
                  for todo in todos]
         data[key] = value
 
