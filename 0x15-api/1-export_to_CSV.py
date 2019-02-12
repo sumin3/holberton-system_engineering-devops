@@ -18,6 +18,6 @@ if __name__ == "__main__":
     data = [[argv[1], employee, todo.get('completed'), todo.get('title')]
             for todo in todos]
 
-    with open('USER_ID.csv', 'w') as f:
+    with open('{}.csv'.format(argv[1]), 'w') as f:
         writer = csv.writer(f, quoting=csv.QUOTE_ALL)
         writer.writerows(data)
