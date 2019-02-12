@@ -5,8 +5,8 @@ returns information about his/her TODO list progress - export data in the
 json format.
 """
 if __name__ == "__main__":
-    import requests
     import json
+    import requests
 
     url = 'https://jsonplaceholder.typicode.com/users'
     users = requests.get(url).json()
