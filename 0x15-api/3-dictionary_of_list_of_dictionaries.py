@@ -23,5 +23,5 @@ if __name__ == "__main__":
                  for todo in todos]
         data[key] = value
 
-    with open('todo_all_employees', 'w') as f:
+    with open('todo_all_employees.json', 'w') as f:
         json.dump(data, f)
