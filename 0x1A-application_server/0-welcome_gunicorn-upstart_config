@@ -1,5 +1,5 @@
 #config file for upstart
-description "Gunicorn application server running app"
+description "Gunicorn application server running airbnb-onepage"
 
 start on runlevel [2345]
 stop on runlevel [!2345]
